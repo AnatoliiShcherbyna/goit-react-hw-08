@@ -1,0 +1,25 @@
+.contact {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contactText {
+  flex: 1;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  color: red;
+  cursor: pointer;
+}
+
+button:hover {
+  color: darkred;
+}
